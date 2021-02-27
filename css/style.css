@@ -1,8 +1,134 @@
-body {
-  background-color: aquamarine;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap");
+html {
+  font-size: 62.5%;
 }
-body div {
-  background-color: blueviolet;
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+.team .team__slogan {
+  max-width: 314px;
+  width: 31.4rem;
+  color: #898f8f;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.36px;
+}
+.team .team__name {
+  color: #ffcc00;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.team .team__paginations {
+  display: flex;
+  margin-top: 5%;
+}
+.team .team__paginations .pagination {
+  width: 10px;
+  height: 10px;
+  background-color: #ffcc00;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.team .team__devider {
+  display: flex;
+}
+.team .team__devider hr {
+  width: 21rem;
+  height: 2px;
+  background-color: #ffcc00;
+  outline: none;
+  border: transparent;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 111.5rem;
+  max-width: 1115px;
+}
+.player .player__picture {
+  margin-right: 2.6%;
+}
+.player .player__devider {
+  width: 1px;
+  height: 56rem;
+  background-color: #ffcc00;
+}
+.player .player__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.player .player__info .info__name {
+  color: #666666;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.72px;
+}
+.player .player__info hr {
+  width: 10rem;
+  height: 1px;
+  background-color: #ffcc00;
+  outline: none;
+  border: transparent;
+}
+.player .player__info .info__position {
+  color: #666666;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+.player .player__info .info__social {
+  display: flex;
+}
+.player .player__info .info__text {
+  width: 41.6rem;
+  color: #333333;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+.player .player__info .info__more {
+  width: 12rem;
+  height: 2.4rem;
+  border: 1px solid #ffcc00;
+  color: #666666;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player .player__info .info__more button {
+  outline: none;
+  border: none;
+  background: transparent;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
