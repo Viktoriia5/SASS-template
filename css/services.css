@@ -1,0 +1,57 @@
+.serv-section {
+  background-color: #70bfff;
+  height: 80vh;
+  padding: 5% 0;
+}
+.serv-section .services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.serv-section .services__list {
+  width: 40%;
+}
+.serv-section .services__list .list__service {
+  list-style: none;
+}
+.serv-section .services__list .list__service-item {
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  width: 70%;
+  height: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 2%;
+  padding-right: 25%;
+}
+.serv-section .services__list .list__service-item div {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #9d9d9d;
+  width: 25%;
+  height: 100px;
+}
+.serv-section .services__image {
+  width: 50%;
+  height: 527px;
+  background: url("../images/tomato.png") no-repeat center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+/*# sourceMappingURL=services.css.map */

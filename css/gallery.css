@@ -1,0 +1,73 @@
+.gallery-section {
+  height: fit-content;
+  background-color: #ffe92f;
+  padding: 5% 0;
+}
+.gallery-section .gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-section .gallery__name {
+  color: #262626;
+}
+.gallery-section .gallery__text {
+  width: 50%;
+  text-align: center;
+  margin: 3% 0 5% 0;
+}
+.gallery-section .gallery__items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.gallery-section .gallery .items__row1 {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.gallery-section .gallery .items__row1-peach {
+  width: 60%;
+  background: url("../images/peach.png") no-repeat center;
+  background-size: cover;
+  height: 55rem;
+}
+.gallery-section .gallery .items__row1 .berries {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 30px;
+}
+.gallery-section .gallery .items__row1 .berries__bilberry {
+  width: 100%;
+  background: url("../images/bilberry.png") no-repeat center;
+  background-size: cover;
+  height: 260px;
+}
+.gallery-section .gallery .items__row1 .berries__blackberry {
+  width: 100%;
+  background: url("../images/blackberry.png") no-repeat center;
+  background-size: cover;
+  height: 260px;
+}
+.gallery-section .gallery .items__row2 {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.gallery-section .gallery .items__row2-glass {
+  width: 50%;
+  background: url("../images/glass.png") no-repeat center;
+  background: cover;
+  height: 400px;
+}
+.gallery-section .gallery .items__row2-persimmon {
+  flex-basis: 50%;
+  background: url("../images/percimmon.png") no-repeat center;
+  background: cover;
+  height: 400px;
+}
+
+/*# sourceMappingURL=gallery.css.map */

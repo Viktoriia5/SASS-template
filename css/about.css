@@ -1,0 +1,55 @@
+.about-section {
+  background-color: #00b6b6;
+  padding: 5% 0;
+}
+.about-section .about {
+  display: flex;
+  height: 70vh;
+  align-content: center;
+}
+@media (min-width: 576px) {
+  .about-section .about {
+    height: fit-content;
+    flex-direction: column;
+  }
+}
+.about-section .about__picture {
+  width: 50%;
+  background: url("../images/about-bg.png") no-repeat center;
+  background-size: cover;
+}
+@media (max-width: 576px) {
+  .about-section .about__picture {
+    background-size: contain;
+    width: 283px;
+    height: 279.5px;
+  }
+}
+.about-section .about__info {
+  width: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+@media (max-width: 576px) {
+  .about-section .about__info {
+    margin-left: 0;
+  }
+}
+.about-section .about__info .about-info__text {
+  margin: 5% 0;
+}
+@media (max-width: 576px) {
+  .about-section .about__info .about-info__text {
+    font-size: 16px;
+  }
+}
+@media (mi-width: 576px) {
+  .about-section .about__info .about-info__name {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

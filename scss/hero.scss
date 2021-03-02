@@ -1,0 +1,48 @@
+.hero-section {
+  background: url("../images/hero-bg.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  @media (max-width: 992px) { 
+    height: 80vh;
+   }
+ 
+
+  &__container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    
+
+    .info {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 40%;
+      @media (max-width: 992px) { 
+        width: 50%;
+       }
+
+      &__name {
+        font-family: Raleway;
+        font-size: 60px;
+        font-weight: 700;
+      }
+
+      &__text {
+        color: #262626;
+        font-family: Raleway;
+        margin: 5% 0 8% 0;
+      }
+    }
+  }
+  img {
+    margin-left: 48%;
+    @media (max-width: 768px) { 
+      display: none;
+     }
+    @media (max-width: 576px) { 
+      display: none;
+     }
+  }
+}

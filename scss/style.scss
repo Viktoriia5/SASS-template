@@ -1,133 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
-html {
-  font-size: 62.5%;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+@import "header.scss";
+@import "hero.scss";
+@import "about.scss";
+@import "services.scss";
+@import "gallery.scss";
+
+* {
+  transition: all 0.1s ease-in;
 }
-.team {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 70vh;
-
-  .team__slogan {
-    max-width: 314px;
-    width: 31.4rem;
-    color: #898f8f;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.36px;
-  }
-  .team__name {
-    color: #ffcc00;
-    font-family: Roboto;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 66px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .team__paginations{
-      display: flex;
-      margin-top:5%;
-      .pagination{
-        width: 10px;
-        height: 10px;
-        background-color: #ffcc00;
-        margin-right: 5px;
-        border-radius: 50%;
-      }
-  }
-  .team__devider {
-    display: flex;
-    hr {
-      width: 21rem;
-      height: 2px;
-      background-color: #ffcc00;
-      outline: none;
-      border: transparent;
-    }
-  }
+.container {
+ 
+  margin: 0 auto;
+  max-width: 1175px;
 }
-.player {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 111.5rem;
-  max-width: 1115px;
-  .player__picture {
-    margin-right: 2.6%;
+.text {
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.name {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
   }
-  .player__devider {
-    width: 1px;
-    height: 56rem;
-    background-color: #ffcc00;
-  }
-  .player__info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
-    .info__name {
-      color: #666666;
-      font-family: Roboto;
-      font-size: 36px;
-      font-weight: 700;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: 0.72px;
-    }
-    hr {
-      width: 10rem;
-      height: 1px;
-      background-color: #ffcc00;
-      outline: none;
-      border: transparent;
-    }
-    .info__position {
-      color: #666666;
-      font-family: Raleway;
-      font-size: 24px;
-      font-weight: 400;
-      line-height: 36px;
-      text-align: center;
-    }
-    .info__social {
-      display: flex;
-    }
-    .info__text {
-      width: 41.6rem;
-      color: #333333;
-      font-family: Raleway;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 24px;
-      text-align: center;
-    }
-    .info__more {
-      width: 12rem;
-      height: 2.4rem;
-      border: 1px solid #ffcc00;
-      color: #666666;
-      font-family: "Open Sans";
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 24px;
-      text-align: left;
-      text-transform: uppercase;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      button {
-        outline: none;
-        border: none;
-        background: transparent;
-        text-align: center;
-      }
-    }
-  }
+button {
+  width: 200px;
+  height: 55px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #ff6033;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
 }
